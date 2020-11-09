@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #5e6ece;
+}
+  
+/* contact area start */
+.contact{
+  display: flex;
+  justify-content: center;
+  align-self:center; 
+  margin-top: 10px;
+  width: 100%;
+}
+.contact .row{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact .row .card{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  width: 340px;
+  margin: 20px;
+  height: 600px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+}
+.contact  .top-area-items{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding: 60px;
+  background-color: rgba(93, 136, 184, 0.815);
+  width: 340px;
+  border-bottom-left-radius: 170px;
+  border-bottom-right-radius: 170px;
+}
+.contact .card .card-title{
+  color: #243466;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.contact .card .card-body{
+justify-content: center;
+align-content: center;
+text-align: center;
+padding: 20px;
+}
+
+.contact .card .card-text{
+  text-align: center;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.contact .card .top-area-items .thumbnail{
+  width:150px;
+  height: auto;
+}
+/* contact area start */
+  
+ 
+/*Btn Area*/
+.button-area{
+ padding: 20px;
+  
+}
+
+.btn{
+  margin: 20px;
+  margin-left: 10px;
+  width: 100px;
+  border: none;
+  font-size: 20px;
+  background-color: rgb(87, 64, 190);
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border-radius: 20px;
+  justify-content: center;
+  align-self: center;
+}
+  
+.btn:hover {
+  background-color: #325470
+}
+
+.btn:active {
+  background-color: #45276d;
+  transform: translateY(4px);
+}
+
+/*Btn Area*/
+
+
+
+
