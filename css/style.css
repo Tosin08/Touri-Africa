@@ -3,9 +3,19 @@
   padding: 0;
 }
 
+.contact .card .thumbnail{
+  justify-content: center;
+  align-self: center; 
+  max-width: 200px; 
+  max-height: 200px;
+  height: 200px;
+  padding: 30px;
+  
+}
+
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-color: #5e6ece;
+  background-color: rgb(129, 199, 231);
 }
   
 /* contact area start */
@@ -16,29 +26,35 @@ body {
   margin-top: 10px;
   width: 100%;
 }
+
 .contact .row{
   justify-content: center;
   align-items: center;
   text-align: center;
 }
+
 .contact .row .card{
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #325470;
+  color: #ffff;
   border: none;
   width: 340px;
-  margin: 20px;
+  margin: 10px;
   height: 600px;
   border-bottom-left-radius: 70px;
   border-bottom-right-radius: 70px;
 }
-.contact  .top-area-items{
+
+.contact .card .top-area-items{
   justify-content: center;
   align-content: center;
   text-align: center;
-  padding: 60px;
-  background-color: rgba(93, 136, 184, 0.815);
-  width: 340px;
+  padding: 20px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  width: 320px;
   border-bottom-left-radius: 170px;
   border-bottom-right-radius: 170px;
 }
@@ -47,7 +63,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   font-size: 20px;
   text-transform: capitalize;
 }
@@ -56,32 +72,32 @@ body {
 justify-content: center;
 align-content: center;
 text-align: center;
-padding: 20px;
+padding: 30px;
 }
 
 .contact .card .card-text{
   text-align: center;
   font-size: 16px;
-  padding-top: 15px;
+  padding-top: 10px;
+  text-align: center;
+  justify-content: center;
+  align-self: center;
 }
 
-.contact .card .top-area-items .thumbnail{
-  width:150px;
-  height: auto;
-}
 /* contact area start */
   
  
 /*Btn Area*/
 .button-area{
- padding: 20px;
-  
+ padding: 30px;
+ justify-content: center;
+ align-content: center;
 }
 
 .btn{
-  margin: 20px;
+  margin: 10px;
   margin-left: 10px;
-  width: 100px;
+  width: 90px;
   border: none;
   font-size: 20px;
   background-color: rgb(87, 64, 190);
